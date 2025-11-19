@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class IfStatements : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+  
+    
         float coffeeTemperature = 85.0f;
         float hotLimitTemperature = 70.0f;
         float coldLimitTemperature = 40.0f;
 
-    }
+    
 
     // Update is called once per frame
     void Update()
