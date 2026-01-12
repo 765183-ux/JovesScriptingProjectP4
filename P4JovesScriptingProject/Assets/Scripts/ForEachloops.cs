@@ -7,7 +7,7 @@ public class ForEachLoop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string[] string = new string[3];
+        string[] strings = new string[3];
         strings[0] = "First String";
         strings[1] = "Second String";
         strings[2] = "Third String";

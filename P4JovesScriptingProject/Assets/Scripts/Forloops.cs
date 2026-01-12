@@ -8,10 +8,11 @@ public class ForLoop : MonoBehaviour
     void Start()
     {
         for (int i = 0; i < numEnemies; i++)
-        { 
-            Debug
+        {
+            Debug.Log("Creating enemy number: " + i);
+        }
     }
-
+    
     // Update is called once per frame
     void Update()
     {
