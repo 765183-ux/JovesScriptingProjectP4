@@ -2,24 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ForLoop : MonoBehaviour
+public class AxisExample : MonoBehaviour
 {
+    public float range;
+
     // Start is called before the first frame update
     void Start()
     {
-<<<<<<< HEAD
         
     }
-=======
->>>>>>> 853f809adf5a17dac70f7538b4365886b19272bc
 
-    }
-        
-    
-    
     // Update is called once per frame
     void Update()
     {
-        
+       float h = Input.GetAxis("Horizontal");
+       float xPos = h * range;
+
+        transform.position = new Vector3(xPos, 2f, 0);
+         Debug.Log("Value Returned : " + h);
     }
 }
